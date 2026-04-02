@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: registry.example.com/platform/frontend:latest
+        image: nileshboy36/frontend:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80

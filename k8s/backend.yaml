@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: registry.example.com/platform/backend:latest
+        image: nileshboy36/backend:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 5000

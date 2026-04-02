@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: worker
-        image: registry.example.com/platform/worker:latest
+        image: nileshboy36/worker:latest
         imagePullPolicy: Always
         envFrom:
         - configMapRef:
